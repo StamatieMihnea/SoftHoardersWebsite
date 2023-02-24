@@ -24,3 +24,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.no-padding-dialog .mat-dialog-container {
+  padding: 1vw;
+  border-radius: 15px;
+}

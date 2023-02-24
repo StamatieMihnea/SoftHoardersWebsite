@@ -13,7 +13,11 @@ export class LandingPageComponent implements OnInit {
   ngOnInit(): void {}
 
   openScoringDialog() {
-    const scoringDialogRef = this.dialog.open(ScoringAppDialogComponent);
+    const scoringDialogRef = this.dialog.open(ScoringAppDialogComponent, {
+      height: "90vh",
+      maxWidth: "97vw",
+      panelClass: "no-padding-dialog"
+    });
 
     scoringDialogRef.afterClosed().subscribe((result) => {
       console.log(`Dialog result: ${result}`);
