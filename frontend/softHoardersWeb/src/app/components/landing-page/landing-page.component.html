@@ -1,0 +1,42 @@
+<div
+  fxLayout.gt-sm="row"
+  fxLayout.lt-md="column"
+  fxLayoutAlign="space-between start"
+  class="page-container"
+>
+  <div
+    fxLayout="column"
+    fxLayoutAlign="space-around center"
+    ngClass.gt-sm="left-column-container"
+    ngClass.lt-md="left-column-container-small"
+  >
+    <div class="text-container">
+      <h1>
+        It's not about <br />
+        wires. <br />
+        It's about <br />
+        <span class="color-animation"> connections. </span>
+      </h1>
+      <div class="text-underline"></div>
+      <p class="brief-description">
+        We are a FIRST Tech Challenge robotics team from "Fratii Buzesti"
+        National College, Craiova
+      </p>
+    </div>
+    <div
+      fxLayout="row"
+      fxLayoutAlign="space-evenly center center"
+      class="buttons-container"
+    >
+      <button mat-flat-button class="button1">Search on the map</button>
+      <button mat-flat-button class="button2">Use the scoring app</button>
+    </div>
+  </div>
+  <div class="right-column-container">
+    <img
+      src="/assets/img/PowerPlay.png"
+      ngClass.gt-sm="render"
+      ngClass.lt-md="render-small"
+    />
+  </div>
+</div>

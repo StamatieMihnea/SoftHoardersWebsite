@@ -1,0 +1,45 @@
+.page-container {
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
+}
+
+.logo {
+  width: 4vw;
+  min-width: 50px;
+  transition-property: transform;
+  transition-duration: 0.8s;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+}
+
+.logo-text {
+  font-family: Newake;
+  font-size: calc(0.8vw + 10px);
+  line-height: 1;
+}
+
+.button-text {
+  font-family: Newake;
+  font-size: calc(0.3vw + 10px);
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  background-color: white;
+  height: 100px;
+}
+
+button {
+  margin-left: 3vw;
+  margin-right: 2vw;
+}
+
+.hamburger-button {
+  transform: scale(1.5);
+}

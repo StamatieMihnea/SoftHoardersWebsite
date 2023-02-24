@@ -1,0 +1,23 @@
+<div
+  class="sponsors-container"
+  ngClass.gt-sm="sponsors-container-big"
+  ngClass.lt-md="sponsors-container-small"
+>
+  <div fxLayout="row" class="sponsors-wrapper" #wrapper>
+    <div
+      *ngFor="let index of [1, 2]"
+      fxLayout="row"
+      fxLayoutAlign="space-evenly center"
+      [ngClass]="'band' + index"
+    >
+      <div
+        fxLayout="row"
+        fxLayoutAlign="center center"
+        *ngFor="let image of images"
+        class="image-container"
+      >
+        <img class="sponsor-image" src="{{ image }}" />
+      </div>
+    </div>
+  </div>
+</div>

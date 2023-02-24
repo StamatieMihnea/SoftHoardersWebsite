@@ -1,0 +1,39 @@
+
+.sponsors-container-big {
+  width: calc(100vw - 10px);
+}
+
+.sponsors-container {
+  overflow: hidden;
+  object-fit: cover;
+  background-color: #004d25;
+  margin-top: 5vh;
+}
+
+.sponsors-container-small {
+  width: 100vw;
+}
+
+.sponsors-wrapper {
+  animation: scroll 30s infinite linear;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(calc(-20 * max(10vw, 150px)), 0);
+  }
+}
+
+.image-container {
+  height: max(10vw, 150px);
+  width: max(10vw, 150px);
+  object-fit: fill;
+}
+
+.sponsor-image {
+  width: max(10vw, 150px);
+  height: auto;
+}
