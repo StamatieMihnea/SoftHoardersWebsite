@@ -1,0 +1,5 @@
+p {font-family: Roboto, "Helvetica Neue", sans-serif;}
+@font-face {
+    font-family: "montserrat-bold";
+    src: local("montserrat-bold"), url(..\..\assets\font\Montserrat-Bold.ttf) format("truetype");
+}

@@ -1,5 +1,5 @@
-<div class="page-container">
-  <div fxLayoutAlign="center center">
+<div class="page-container" fxLayout="column">
+  <div fxLayoutAlign="center center" fxFlex="40">
     <img
       src="../assets/img/scoring-app/powerplay4.png"
       alt="image"
@@ -7,16 +7,19 @@
     />
   </div>
   <div
+    fxFlex
     fxLayout="column"
     fxLayoutAlign="space-around center"
     class="button-container"
   >
-    <button mat-raised-button (click)="onPageChange(3)" class="button">
-      <b>TRADITIONAL</b>
-    </button>
-    <button mat-raised-button (click)="onPageChange(2)" class="button">
-      <b>REMOTE</b>
-    </button>
+    <div class="button-wrapper" fxLayout="column" fxLayoutAlign="center center">
+      <button mat-raised-button (click)="onPageChange(3)" class="button">
+        <b>TRADITIONAL</b>
+      </button>
+      <button mat-raised-button (click)="onPageChange(2)" class="button">
+        <b>REMOTE</b>
+      </button>
+    </div>
   </div>
 </div>
 <div fxLayoutAlign="center center" class="lightning-container">

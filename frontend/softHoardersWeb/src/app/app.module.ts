@@ -11,17 +11,22 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { SponsorsScrollComponent } from './components/sponsors-scroll/sponsors-scroll.component';
 import { ScoringAppModule } from 'src/scoring-app/app/app.module';
+import { ScoringAppDialogComponent } from './components/scoring-app-dialog/scoring-app-dialog.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, LandingPageComponent, SponsorsScrollComponent],
+  declarations: [AppComponent, NavbarComponent, LandingPageComponent, SponsorsScrollComponent, ScoringAppDialogComponent],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     FlexLayoutModule,
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    ScoringAppModule
+    ScoringAppModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent],

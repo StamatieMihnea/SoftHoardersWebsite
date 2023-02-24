@@ -1,21 +1,24 @@
+<div fxLayoutAlign="center center" class="lightning-container">
   <img
-    class="centered"
-    src="../assets/images/lightning.png"
+    src="../assets/img/scoring-app/lightning.png"
     alt="lighting"
-    style="position: fixed; opacity: 35%; height: 50%"
+    class="lightning"
   />
-  <div>
-    <mat-toolbar class="total">
+</div>
+
+<div class="page-container">
+  <mat-toolbar class="total" fxLayout="row" fxLayoutAlign="space-between center">
+    <div fxLayoutAlign="center center">
       <b> Total points: {{ this.calcService.total(game) }} </b>
       <button mat-icon-button class="btnAfterTotal" (click)="onReset()">
         <mat-icon>replay</mat-icon>
       </button>
-    </mat-toolbar>
+    </div>
     <button mat-icon-button class="home" (click)="onPageChange(1)">
       <mat-icon>home</mat-icon>
     </button>
-  </div>
-  <div style="position: absolute; left: 7.5vw; top: 12vh; margin-bottom: 5vh">
+  </mat-toolbar>
+  <div class="categories-container">
     <div class="auto">
       <h2>Autonomous: {{ getAutoPoints() }}</h2>
       <mat-divider></mat-divider>
@@ -238,3 +241,4 @@
       </p>
     </div>
   </div>
+</div>
