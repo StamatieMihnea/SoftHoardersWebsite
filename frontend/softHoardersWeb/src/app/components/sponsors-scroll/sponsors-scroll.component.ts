@@ -3,36 +3,42 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'sponsors-scroll',
   templateUrl: './sponsors-scroll.component.html',
-  styleUrls: ['./sponsors-scroll.component.scss']
+  styleUrls: ['./sponsors-scroll.component.scss'],
 })
 export class SponsorsScrollComponent implements OnInit {
-
   images = [
-    "/assets/img/bizsolutions.png",
-    "/assets/img/caphyon.png",
-    "/assets/img/dsis.png",
-    "/assets/img/inas.png",
-    "/assets/img/inspire.png",
-    "/assets/img/netrom.png",
-    "/assets/img/qfort.png",
-    "/assets/img/topexperience.png",
-    "/assets/img/topsport.png",
-    "/assets/img/syncro.png",
-    "/assets/img/5togo.png",
-    "/assets/img/cnfb.png",
-    "/assets/img/ruris.png",
-    "/assets/img/ikmode.png",
-    "/assets/img/hella.png",
-    "/assets/img/coliseum.png",
-    "/assets/img/autonom.png",
-    "/assets/img/facultate.png",
-    "/assets/img/asociatia.png",
-    "/assets/img/ecotab.png",
-  ]
+    '/assets/img/BizSolutions.png',
+    '/assets/img/Caphyon.png',
+    '/assets/img/Dsis.png',
+    '/assets/img/Inas.png',
+    '/assets/img/Cinema Inspire.png',
+    '/assets/img/Netrom Software.png',
+    '/assets/img/Qfort.png',
+    '/assets/img/Top Experience.png',
+    '/assets/img/Topsport.png',
+    '/assets/img/Syncro Soft.png',
+    '/assets/img/5ToGo.png',
+    '/assets/img/Cnfb.png',
+    '/assets/img/Ruris.png',
+    '/assets/img/Ikmode.png',
+    '/assets/img/Hella.png',
+    '/assets/img/Coliseum.png',
+    '/assets/img/Autonom.png',
+    '/assets/img/Facultatea de Mecanica Craiova.png',
+    '/assets/img/Asociatia Parintilor Buzesteni.png',
+    '/assets/img/Ecotab.png',
+  ];
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  getSponsorName(logoPath: string): string {
+    let pathComponents: string[] = logoPath.split('/');
+    if (pathComponents.length == 0) {
+      return 'sponsor logo';
+    }
+
+    return pathComponents[pathComponents.length - 1].split('.')[0];
   }
-
 }

@@ -13,10 +13,10 @@
       <div
         fxLayout="row"
         fxLayoutAlign="center center"
-        *ngFor="let image of images"
+        *ngFor="let imagePath of images"
         class="image-container"
       >
-        <img class="sponsor-image" src="{{ image }}" />
+        <img class="sponsor-image" src="{{ imagePath }}" alt="{{getSponsorName(imagePath)}}" />
       </div>
     </div>
   </div>
