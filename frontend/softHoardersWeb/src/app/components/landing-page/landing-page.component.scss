@@ -34,12 +34,22 @@
 
 .button1 {
   background-color: #004d25;
-  border-radius: 40px;
+  border-radius: 10px;
   color: white;
+  transition: all 1s ease;
   font-size: calc(0.3vw + 10px);
   height: 5vh;
   font-family: Newake;
 }
+
+.button1:hover {
+  border-radius: 70px;
+  transform: scale(1.1);
+  
+}
+
+
+
 
 .button2 {
   outline-color: black;
@@ -50,6 +60,8 @@
    font-size: calc(0.3vw + 10px);
   height: 5vh;
 }
+
+
 
 h1 {
   font-size: calc(2.6vw + 40px);
