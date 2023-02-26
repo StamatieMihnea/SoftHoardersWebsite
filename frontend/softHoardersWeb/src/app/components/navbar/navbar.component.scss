@@ -6,14 +6,14 @@
 
 .logo {
   
-  width: 4vw;
+  width: 2vw;
   min-width:80px;
-  transition-property: transform;
+  transition-property: all;
   transition-duration: 0.8s;
 }
 
 .logo:hover {
-  transform: rotate(360deg);
+  transform: rotate(360deg) scale(1.1);
   
   
 }
@@ -30,13 +30,14 @@
   display: inline-block;
   position: relative;
   font-family: Newake;
-  font-size: calc(0.4vw + 10px);
+  font-size: calc(0.5vw + 10px);
   cursor: pointer;
   
 }
 .button-text:after {
   content: '';
   position: absolute;
+  ///TODO: remove position absolute
   width: 100%;
   transform: scaleX(0);
   height: 2px;
@@ -49,11 +50,11 @@
 
 .button-text:hover:after {
   transform: scaleX(1);
-  background-color: green;
+  background-color: #48bf53;
   transform-origin: bottom left;
 }
 .button-text:hover {
-  color: green;
+  color: #48bf53;
 }
 
 .spacer {

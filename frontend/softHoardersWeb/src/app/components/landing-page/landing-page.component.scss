@@ -1,5 +1,6 @@
 .page-container {
   padding-top: 100px;
+
 }
 
 .right-column-container {
@@ -28,39 +29,52 @@
   text-align: center;
 }
 
+
 .buttons-container {
   width: 100%;
 }
 
 .button1 {
   background-color: #004d25;
-  border-radius: 10px;
+  border-radius: 40px;
   color: white;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
   font-size: calc(0.3vw + 10px);
   height: 5vh;
   font-family: Newake;
 }
 
 .button1:hover {
-  border-radius: 80px;
+  border-radius: 10px;
   transform: scale(1.1);
+  outline-color: white;
+  outline-style: solid;
+  outline-width: 1px;
+  background-color:BLACK;
   
 }
 
 
-
-
 .button2 {
   outline-color: black;
-  outline-width: 1px;
+  outline-width: 2px;
   outline-style: solid;
   border-radius: 40px;
   font-family: Newake;
    font-size: calc(0.3vw + 10px);
   height: 5vh;
+  transition: all 0.5s ease;
 }
 
+.button2:hover {
+  border-radius: 10px;
+  transform: scale(1.1);
+  outline-width: 0px;
+  background-color:black;
+  color:white;
+  
+  
+}
 
 
 h1 {
@@ -92,6 +106,7 @@ p {
   animation: TranslateMy 1s ease-in-out;
 }
 
+
 @keyframes TranslateMy {
   0% {
     transform: translate(600px, 0);
@@ -100,6 +115,7 @@ p {
     transform: translate(0, 0);
   }
 }
+
 
 .color-animation {
   animation: Color 10s linear infinite;
