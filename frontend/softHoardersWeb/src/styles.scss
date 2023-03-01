@@ -8,21 +8,22 @@ body {
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
-  background:transparent;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   background: transparent;
-  border-radius :100vw;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #48bf53;
-  border-radius :100vw; 
+  background: #888;
 }
 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 
 .no-padding-dialog .mat-dialog-container {

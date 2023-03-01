@@ -47,11 +47,11 @@
 .button1:hover {
   border-radius: 10px;
   transform: scale(1.1);
-  outline-color: white;
+  outline-color: black;
+  outline-width: 2px;
   outline-style: solid;
-  outline-width: 1px;
-  background-color:BLACK;
-  
+  background: transparent;
+  color: black;
 }
 
 
@@ -70,10 +70,10 @@
   border-radius: 10px;
   transform: scale(1.1);
   outline-width: 0px;
-  background-color:black;
+  background-color: #004d25;
   color:white;
-  
-  
+
+
 }
 
 
