@@ -17,6 +17,7 @@ import { MapComponent } from './components/map/map.component';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { FastMediaComponent } from './components/fast-media/fast-media.component';
+import { PreloaderComponent } from './components/preloader/preloader.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { FastMediaComponent } from './components/fast-media/fast-media.component
     MapComponent,
     HomeComponent,
     FastMediaComponent,
+    PreloaderComponent,
   ],
   imports: [
     BrowserModule,

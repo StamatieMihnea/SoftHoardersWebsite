@@ -8,12 +8,12 @@
 .logo {
   height: 6vh;
   max-height: 90px;
-  transition-property: transform;
+  transition-property: all;
   transition-duration: 0.8s;
 }
 
 .logo:hover {
-  transform: rotate(360deg);
+  transform: rotate(360deg) scale(1.1);
 }
 
 .logo-text {
@@ -23,8 +23,35 @@
 }
 
 .button-text {
+  margin-left: 3vw;
+  margin-right: 2vw;
+  display: inline-block;
+  position: relative;
   font-family: Newake;
-  font-size: calc(0.3vw + 10px);
+  font-size: calc(0.5vw + 10px);
+  cursor: pointer;
+}
+
+.button-text::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  left: 0;
+  bottom: 4px;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.button-text:hover::after {
+  transform: scaleX(1);
+  background-color: #48bf53;
+  transform-origin: bottom left;
+}
+.button-text:hover {
+  color: #48bf53;
 }
 
 .spacer {
@@ -34,11 +61,6 @@
 .mat-toolbar {
   background-color: white;
   height: 100px;
-}
-
-button {
-  margin-left: 3vw;
-  margin-right: 2vw;
 }
 
 .hamburger-button {

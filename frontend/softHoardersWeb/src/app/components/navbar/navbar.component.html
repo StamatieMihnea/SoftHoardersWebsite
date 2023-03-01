@@ -11,24 +11,12 @@
   >
   <span class="spacer"></span>
   <div fxShow="false" fxShow.gt-sm>
-    <button mat-button>
       <span routerLink="/home" class="button-text">about</span>
-    </button>
-    <button mat-button>
       <span class="button-text">news</span>
-    </button>
-    <button mat-button routerLink="/map">
       <span class="button-text">map</span>
-    </button>
-    <button mat-button>
       <span class="button-text" (click)="scoringAppService.openScoringDialog()">scoring app</span>
-    </button>
-    <button mat-button>
       <span class="button-text">sponsors</span>
-    </button>
-    <button mat-button>
       <span class="button-text">media</span>
-    </button>
   </div>
   <button mat-button fxShow="false" fxShow.lt-md>
     <mat-icon>menu</mat-icon>
