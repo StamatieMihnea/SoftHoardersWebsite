@@ -2,11 +2,12 @@
   position: fixed;
   width: 100vw;
   z-index: 2;
+  top: 0;
 }
 
 .logo {
-  width: 4vw;
-  min-width: 50px;
+  height: 6vh;
+  max-height: 90px;
   transition-property: transform;
   transition-duration: 0.8s;
 }

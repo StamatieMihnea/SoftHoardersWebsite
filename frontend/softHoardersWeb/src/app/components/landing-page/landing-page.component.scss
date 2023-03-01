@@ -1,8 +1,14 @@
 .page-container {
   padding-top: 100px;
+  position: fixed;
+  width: calc(100vw - 10px);
+  height: 96vh;
+  z-index: -1;
+  top: 0;
 }
 
 .right-column-container {
+  align-self: end;
   max-width: 98vw;
   overflow: hidden;
 }
@@ -32,7 +38,7 @@
   width: 100%;
 }
 
-.button1 {
+.map-button {
   background-color: #004d25;
   border-radius: 40px;
   color: white;
@@ -41,13 +47,13 @@
   font-family: Newake;
 }
 
-.button2 {
+.app-button {
   outline-color: black;
   outline-width: 1px;
   outline-style: solid;
   border-radius: 40px;
   font-family: Newake;
-   font-size: calc(0.3vw + 10px);
+  font-size: calc(0.3vw + 10px);
   height: 5vh;
 }
 
@@ -68,14 +74,13 @@ p {
   width: auto;
   height: calc(85vh - 100px);
   object-fit: cover;
-  padding: 6vh 6vw 0 0;
+  padding: 6vh 6vw 3vh 0 ;
   animation: TranslateMy 1s ease-in-out;
 }
 
 .render-small {
-  height: auto;
-  width: 90vw;
-  object-fit: cover;
+  max-width: 90%;
+  max-height: 100%;
   padding: 20px;
   animation: TranslateMy 1s ease-in-out;
 }

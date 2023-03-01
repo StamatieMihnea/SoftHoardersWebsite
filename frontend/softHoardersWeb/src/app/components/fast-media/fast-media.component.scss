@@ -1,0 +1,35 @@
+.page-container{
+  height: calc(100vh - 100px -  max(10vw, 150px));
+  background: url("https://rpsthecoder.github.io/img-repo/Taitō%20by%20Jezael%20Melgoza.jpg") center center;
+  background-size: contain;
+}
+
+.page-container-big{
+  width: calc(100vw - 10px);
+}
+
+.page-container-small{
+  width: 100vw;
+}
+
+.big-text{
+  background: #004d25;
+  color: white;
+  font-family: Newake;
+  font-size: 12vw;
+  font-weight: bold;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  align-content: center;
+  margin: 0;
+  mix-blend-mode: multiply;
+}
+
+.gradient{
+  height: 30vh;
+  position: absolute;
+  background-image: linear-gradient(rgba(0,77,37,1) , transparent);
+  z-index: 10;
+}

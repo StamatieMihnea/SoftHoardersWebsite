@@ -1,9 +1,12 @@
+@import '~maplibre-gl/dist/maplibre-gl.css';
+
 @font-face {
   font-family: Newake;
   src: url(assets/font/NewakeFont.otf) format("opentype");
 }
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 /* width */
 ::-webkit-scrollbar {

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScoringAppService } from 'src/app/services/scoring-app.service';
 
 @Component({
   selector: 'navbar',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(protected scoringAppService : ScoringAppService) { }
 
   ngOnInit(): void {
   }

@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "12560",
+        "name": "Soft Hoarders"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.79398, 44.31354]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2",
+        "name": "Rasky"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.79296, 44.31989]
+      }
+    }
+  ]
+}
