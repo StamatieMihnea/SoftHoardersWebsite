@@ -4,23 +4,2028 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "14278",
+        "name": "Xeo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.563875574838317, 46.06658252612912]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20135",
+        "name": "MeeralRobotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.23458068783157, 45.75289462013905]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19086",
+        "name": "Robocorns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.570127578764783, 47.658138734842]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "15965",
+        "name": "EsentzaRobotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.175863518734765, 47.17647112241531]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17965",
+        "name": "Bolts-and-Gears"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.495443726552324, 47.13489866127469]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19103",
+        "name": "KronBot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.624693827954307, 45.64425423078595]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19082",
+        "name": "RoboAS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.584048050969702, 45.638418428930336]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20329",
+        "name": "TechnoGods"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.278737989747594, 45.027948336757966]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "14277",
+        "name": "QUBE."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.125294248714702, 44.439644462100276]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "15989",
+        "name": "RoboTitans"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.090736742763074, 44.441600663915935]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19117",
+        "name": "Robo-Sapiens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.106859623032804, 44.43831483831644]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19055",
+        "name": "TITANS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.090416975373287, 44.43481021539056]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17855",
+        "name": "VortexBreakers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.080128976293835, 44.45762471235031]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17243",
+        "name": "VianuLegends"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.07988206287303, 44.45848885473164]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "16166",
+        "name": "WATT's UP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.040502720177614, 45.264458932871854]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21033",
+        "name": "HYPE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.59583237389205, 46.774561559096234]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19056",
+        "name": "PrimeTech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.59511010131867, 46.75397101885786]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19079",
+        "name": "Phoenix"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.601251732491328, 46.777281804412915]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22044",
+        "name": "ACES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.623938700169496, 46.76320318448984]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19102",
+        "name": "TheArchiTechs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.594074035799352, 46.768006496530155]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22461",
+        "name": "Andromeda Robotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.59647830033559, 46.76735383622992]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21088",
+        "name": "Velocity Blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.969919177284385, 45.2640278184612]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
         "id": "12560",
         "name": "Soft Hoarders"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [23.79398, 44.31354]
+        "coordinates": [23.79406872112208, 44.313430558637755]
       }
     },
+
     {
       "type": "Feature",
       "properties": {
-        "id": "2",
-        "name": "Rasky"
+        "id": "15975",
+        "name": "RobotX Hunedoara"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [23.79296, 44.31989]
+        "coordinates": [22.90969282087869, 45.750174522842556]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19062",
+        "name": "Phantom Robotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.45220618803853, 44.9291719274211]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19094",
+        "name": "WizzTech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.22746008449451, 45.74144199657097]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17881",
+        "name": "River Wolves"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.78627905706808, 45.176543663762224]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19104",
+        "name": "CyberPunkRobotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.77786912710979, 46.57522749249005]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17532",
+        "name": "Centered Robotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.542674853737896, 47.176989597454366]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22584",
+        "name": "RoboticsGeneration"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.23458618938553, 45.752862361662885]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21087",
+        "name": "Velocity Red"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.969938786997375, 45.264020262239406]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22552",
+        "name": "ToTheStars"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.031377401840714, 44.92869950704736]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20985",
+        "name": "Wafy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.403431077090804, 45.45118925619298]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19115",
+        "name": "BRobo-Team 064"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.881798051796633, 47.79083981334522]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17870",
+        "name": "Perpetuum Mobile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.87637738714272, 47.78939549841083]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17871",
+        "name": "THOBOR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.427519331836294, 45.84650455316786]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21034",
+        "name": "Teams Originals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.217919763311542, 45.755704366841805]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21056",
+        "name": "Teams Originals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.557531615355042, 46.073117015744344]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21056",
+        "name": "Army Bot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.557531615355042, 46.073117015744344]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19077",
+        "name": "ROBOCADET"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.814453848907785, 44.320659320907254]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19292",
+        "name": "TeamPhoenix"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.279943456439177, 45.05215841956723]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21089",
+        "name": "Fast Forward Future Team"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.46318073474893, 46.538671222259424]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "12632",
+        "name": "Transilvania Robotix"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.600894478753062, 46.77438070187667]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21996",
+        "name": "AtomicBots"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.491213656721012, 47.13230427530156]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21972",
+        "name": "LTASrob"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.35715658131226, 46.15870156821119]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19049",
+        "name": "HighFive Robotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.868457200031102, 44.857679963889]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19071",
+        "name": "Smart Cluster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.905990036024274, 46.56916720980099]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19063",
+        "name": "UnderConstruction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.45216751737074, 44.92916219762937]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21031",
+        "name": "Rolerbot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.737960190974118, 46.6416451066323]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "15966",
+        "name": "ESENTZA REVOLUTION"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.252625052485158, 47.64352186661153]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19342",
+        "name": "Clever Core"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.57740514361937, 47.65788614043938]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17844",
+        "name": "RUBIX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.9275158854155, 46.178163504842054]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17860",
+        "name": "HELIX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.970135902492643, 45.275227474907794]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19099",
+        "name": "H-tech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.106293070649443, 44.42364443056725]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19053",
+        "name": "HOMOSAPIENS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.824905018162987, 45.148530142487]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17624",
+        "name": "IGNITE."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.125154780959736, 44.43942669439837]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19072",
+        "name": "TehnoZ Junior"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.874561339982222, 44.853451347631285]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17875",
+        "name": "Code_Warriors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.350812679875812, 46.16590304994365]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19047",
+        "name": "RavenTech_HD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.909580940233525, 45.7501552076934]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19109",
+        "name": "RaSky"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.792852428314212, 44.31983881288282]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19073",
+        "name": "The Emperor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.659540990326263, 44.62438852018752]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "18160",
+        "name": "4D-ROBOTICS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.878262630332912, 44.840607297354914]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19097",
+        "name": "Quasar Robotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.05603961603845, 46.67487332581827]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20043",
+        "name": "SNGine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.35396516816565, 46.15707908801274]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19151",
+        "name": "TECHNO-MAISTER"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.947625276189434, 44.9614912403179]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19246",
+        "name": "CyberSouls"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.40404342411908, 47.2845802727054]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19120",
+        "name": "AlphaBit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.36832765175996, 45.425079267192885]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19128",
+        "name": "RoboDac Dacia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.86364339622692, 44.854293467123064]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "15972",
+        "name": "TehnoZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.874555778010965, 44.8534513898733]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19061",
+        "name": "Boogeybots"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.04750214387164, 45.37763253986277]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19111",
+        "name": "TITUROBO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.369608208539947, 44.426491026921944]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19116",
+        "name": "VV ROBOTS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.676437182161287, 45.133345357824396]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "18338",
+        "name": "StarTech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.875549966817175, 47.79721088269056]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19065",
+        "name": "Inorog"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.664496600898595, 46.226249367741765]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19176",
+        "name": "Broboti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.868001712042215, 44.85717868053066]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19110",
+        "name": "RoboSmart"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.36321460018106, 44.424472468604]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19134",
+        "name": "RODAC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.95560302092434, 45.27036474994853]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19074",
+        "name": "Extropy Robotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.889056117021322, 46.542452440997856]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19242",
+        "name": "ROBOPEDA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.345981020364707, 46.67047639027215]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19076",
+        "name": "RoboticsTrav"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.81216847249908, 44.30938678394872]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19199",
+        "name": "InfotronX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.510415358302545, 47.14270393369105]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "23068",
+        "name": "LTTV TEAM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.1764081111901, 45.85824950717905]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22440",
+        "name": "HOSBOTX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.130838992780625, 44.49377957541617]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19091",
+        "name": "The_Resistance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.351655874524944, 46.16606263374486]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19054",
+        "name": "NeuroBotix"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.124372387780465, 44.43871523846704]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21044",
+        "name": "Epsilon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.80672499665746, 45.180713458675335]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20732",
+        "name": "Atlas.CNB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.213734913536857, 45.744404632275355]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20265",
+        "name": "Heart of RoBots"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.824911278779393, 45.14854043511598]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20912",
+        "name": "HARAMBE CARTEL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.319653977469084, 46.170915367339035]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "16000",
+        "name": "Gear Maniacs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.149693637166994, 45.79727245108454]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21050",
+        "name": "MasterMinds"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.11289538399554, 44.445472157505584]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22226",
+        "name": "Renaissance Robotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.11461147785826, 44.38635455351546]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21476",
+        "name": "ViCyber"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.078962373649315, 44.458160381305795]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21455",
+        "name": "RoSophia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.047951033904344, 45.455503604090794]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17857",
+        "name": "Gentlemen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.091046286088137, 44.44064695697297]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22017",
+        "name": "Eu codez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.382432350251772, 46.935659258277695]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17873",
+        "name": "Vectron"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.878395740442222, 47.14156655336822]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "15996",
+        "name": "BRICKBOT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.1915463510614, 45.6979310906412]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21070",
+        "name": "Byteforce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.051750085725658, 45.44079259291284]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19064",
+        "name": "DRAGONIC-FORCE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.270742852632324, 44.240937527335525]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19139",
+        "name": "SNAKE TECH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.370277628077353, 46.93363986617697]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19141",
+        "name": "BraveBots"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.02557038064171, 44.936496414468934]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19067",
+        "name": "Bionic Royals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.36165438003715, 45.108398111764]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20972",
+        "name": "VOLTA CIRCUITS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.252795163190886, 47.64285134513987]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20925",
+        "name": "HyperCube"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.10969873279334, 44.42951428980716]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19048",
+        "name": "RoboPapiu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.568777374147928, 46.54587201093367]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "23015",
+        "name": "RobotTeamAlpha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.31666395126394, 46.16480858258287]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19084",
+        "name": "SovaTech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.041197268834242, 44.426579248305345]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5843",
+        "name": "AutoVortex Voluntari"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.202147751292987, 44.49221299921723]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19093",
+        "name": "Infinity Bolts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.32972887828192, 46.181967271904035]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19095",
+        "name": "Wire Impulse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.30840186816427, 46.1845025677943]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19105",
+        "name": "DecebalTech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.900370019075684, 45.88311825527735]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19058",
+        "name": "Modus Vivendi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.93056916699845, 47.060619039804166]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19090",
+        "name": "TEHROCUZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.359027213317543, 44.57013191972309]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21073",
+        "name": "November Eleven"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.640669035444613, 44.715275558407576]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19152",
+        "name": "Brainstorms"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.05622646000649, 47.188851361976816]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17861",
+        "name": "CSH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.235722833449543, 45.75413598550738]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "14270",
+        "name": "Quantum Robotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.21123861657827, 44.40807564407862]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19043",
+        "name": "CyLiis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.566809904561396, 47.18509113500576]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22114",
+        "name": "Teoretika"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.426942242070066, 47.87434471225428]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22998",
+        "name": "CYB3RG0DS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.382549021544072, 46.935160053131476]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19121",
+        "name": "Tea-Borgs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.273730738003223, 45.03754733099052]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19256",
+        "name": "CyberMoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.234137692635116, 45.7533969761307]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20974",
+        "name": "Hardwired"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.570714507550598, 46.54777296614198]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21169",
+        "name": "CyberLions"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.233906315741407, 44.98831008994867]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22018",
+        "name": "OrionRobotix"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.058941906430316, 44.48327245932234]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19100",
+        "name": "Future Tech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.35654970809442, 47.347988848751086]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17869",
+        "name": "ERCAST2020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.991476535822375, 44.93891035941709]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19081",
+        "name": "Bots' Brain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.940832014305947, 43.990574706625885]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19096",
+        "name": "Danube Robotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.31128344104823, 44.20593168712903]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19112",
+        "name": "UNDEFINED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.73462016945891, 45.126314886341966]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19148",
+        "name": "STEFTECH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.610159790634782, 47.50750992694105]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19106",
+        "name": "Dark Energy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.901287332657866, 45.88339629190595]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17713",
+        "name": "Delta Force"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.3291586201822, 46.18264032645473]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17962",
+        "name": "Ro2D2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.025444323283768, 44.936704074140685]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19083",
+        "name": "NORTH EAST DYNAMICS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.407295206034213, 47.94036392964891]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22973",
+        "name": "EXE-ROBOTICS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.314292825800422, 44.72199256249695]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20237",
+        "name": "LTCDMNrobotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.61848347225855, 44.72740869234533]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21071",
+        "name": "SkyLine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.46671423356371, 44.92754524687513]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20954",
+        "name": "ȘTIM DC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.776832789237776, 46.25369884858289]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19092",
+        "name": "ICLASS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.79483403253051, 45.626713731858295]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "15993",
+        "name": "infO(1)Robotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.026698408785727, 44.94526201421652]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19088",
+        "name": "BroBots"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.364377817375278, 45.10866302005281]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21028",
+        "name": "The Eagles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.931389232881063, 46.92523996747487]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19059",
+        "name": "ArtRobotiX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.376338296220034, 44.56407844403713]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20880",
+        "name": "RoboGraphed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.619337645310726, 44.18430475550323]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19052",
+        "name": "Trojan.EXE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.9048702749497, 47.02668870666051]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19087",
+        "name": "MironoBot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.7216401507113, 47.25556085171604]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19131",
+        "name": "Evolution"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.353491804774656, 44.56368845292456]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20965",
+        "name": "BIT-MO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.32107890523719, 46.1690680164765]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19068",
+        "name": "ABSO-Tech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.90994726217064, 47.03274120759277]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22586",
+        "name": "CNapSys"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.054288539906647, 47.1785572567439]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19066",
+        "name": "AICitizens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.189763433136633, 45.70284283907518]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "18026",
+        "name": "SGBots"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.671191399489395, 47.36826221689413]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21097",
+        "name": "Dragonfly"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.394196217320413, 47.95333091989637]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19211",
+        "name": "VirtualWolves"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.64861301535706, 46.210228509644054]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22941",
+        "name": "Brute Force Robotics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.259551282297608, 44.65960844577309]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19147",
+        "name": "Blizzard Eye"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.370267663553257, 47.2062619014657]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19101",
+        "name": "Tech-X"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.88692909589497, 47.9307262666924]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22697",
+        "name": "CreativityR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.577307779583254, 47.17330797681551]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22590",
+        "name": "Macrosynth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.54369271874033, 47.1771947924128]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19098",
+        "name": "EasternFoxes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.02699414137268, 44.94478358897673]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19044",
+        "name": "PEPPERS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.566933888353574, 47.18569606979223]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19060",
+        "name": "INFINITYEDGE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.191925110539422, 45.69720896410048]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19257",
+        "name": "UNPLUGGED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.226847299126284, 45.757875390460285]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20691",
+        "name": "Andromeda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.21476967041892, 44.4309629525846]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20936",
+        "name": "Electrified Titans"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.256977287608105, 47.64691630566002]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21030",
+        "name": "MasterBots"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.367948991450703, 45.11619648414667]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20957",
+        "name": "Motion Bot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.67200376259705, 46.23214473296496]
       }
     }
   ]

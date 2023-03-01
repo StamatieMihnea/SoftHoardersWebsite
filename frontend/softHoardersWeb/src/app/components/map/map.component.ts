@@ -25,6 +25,28 @@ export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
     this.map = new Map({
       container: this.mapContainer.nativeElement,
       style: `https://api.maptiler.com/maps/streets-v2/style.json?key=SxDX2hTgUYas0yausssf`,
+
+      // style: {
+      //   version: 8,
+      //   sources: {
+      //     'raster-tiles': {
+      //       type: 'raster',
+      //       tiles: [
+      //         'https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=SxDX2hTgUYas0yausssf',
+      //       ],
+      //       tileSize: 256,
+      //     }
+
+      //   },
+      //   'layers': [
+      //     {
+      //       id: 'simple-tiles',
+      //       type: 'raster',
+      //       source: 'raster-tiles',
+      //     },
+      //   ],
+      // },
+
       center: [initialState.lng, initialState.lat],
       zoom: initialState.zoom,
     });
@@ -35,7 +57,6 @@ export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
         .then((res) => res.json())
         .then((src) =>
           src.features.forEach((feature: any) => {
-            console.log(`../../assets/img/teams-logo/${feature.properties.id}.png`);
             map.loadImage(
               `../../assets/img/teams-logo/${feature.properties.id}.png`,
               function (error, image) {
@@ -78,7 +99,7 @@ export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
         },
         paint: {
           'text-color': '#ffffff',
-        }
+        },
       });
 
       map.addLayer({
@@ -88,7 +109,7 @@ export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
         filter: ['!', ['has', 'point_count']],
         layout: {
           'icon-image': ['get', 'id'],
-          'icon-size': window.screen.width/9000,
+          'icon-size': window.screen.width / 9000,
           'icon-allow-overlap': true,
         },
         paint: {},
