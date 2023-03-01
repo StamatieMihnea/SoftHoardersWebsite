@@ -21,7 +21,9 @@
       <span class="button-text">map</span>
     </button>
     <button mat-button>
-      <span class="button-text" (click)="scoringAppService.openScoringDialog()">scoring app</span>
+      <span class="button-text" (click)="scoringAppService.openScoringDialog()"
+        >scoring app</span
+      >
     </button>
     <button mat-button>
       <span class="button-text">sponsors</span>
@@ -30,7 +32,12 @@
       <span class="button-text">media</span>
     </button>
   </div>
-  <button mat-button fxShow="false" fxShow.lt-md>
+  <button
+    mat-button
+    fxShow="false"
+    fxShow.lt-md
+    (click)="mobileSidenavService.toggle()"
+  >
     <mat-icon>menu</mat-icon>
   </button>
 </mat-toolbar>

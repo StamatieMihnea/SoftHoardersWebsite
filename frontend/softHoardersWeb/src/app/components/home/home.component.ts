@@ -1,15 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, ViewChild } from '@angular/core';
+import { MatDrawer } from '@angular/material/sidenav';
+import { MobileSidenavService } from 'src/app/services/mobile-sidenav.service';
 
 @Component({
   selector: 'home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements AfterViewInit {
+  @ViewChild('drawer') private drawer!: MatDrawer;
 
-  constructor() { }
+  constructor(private mobileSidenavService: MobileSidenavService) { }
 
-  ngOnInit(): void {
+  ngAfterViewInit(): void {
+    this.mobileSidenavService.setDrawer(this.drawer);
   }
+
 
 }

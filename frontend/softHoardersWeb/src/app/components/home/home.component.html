@@ -1,5 +1,18 @@
-<landing-page></landing-page>
-<div class="moving-segment">
-<sponsors-scroll></sponsors-scroll>
-<fast-media> </fast-media>
-</div>
+<mat-sidenav-container>
+  <mat-sidenav
+    #drawer
+    mode="over"
+    fixedInViewport="true"
+    fixedTopGap="100"
+    position="end"
+    fxShow="false"
+    fxShow.lt-md
+  >
+    sidenav
+  </mat-sidenav>
+  <landing-page></landing-page>
+  <div class="moving-segment">
+    <sponsors-scroll></sponsors-scroll>
+    <fast-media> </fast-media>
+  </div>
+</mat-sidenav-container>

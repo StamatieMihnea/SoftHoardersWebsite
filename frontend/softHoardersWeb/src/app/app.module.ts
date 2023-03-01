@@ -17,6 +17,7 @@ import { MapComponent } from './components/map/map.component';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { FastMediaComponent } from './components/fast-media/fast-media.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { FastMediaComponent } from './components/fast-media/fast-media.component
     MatButtonModule,
     ScoringAppModule,
     MatDialogModule,
+    MatSidenavModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
