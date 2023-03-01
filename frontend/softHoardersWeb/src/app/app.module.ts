@@ -14,9 +14,10 @@ import { ScoringAppModule } from 'src/scoring-app/app/app.module';
 import { ScoringAppDialogComponent } from './components/scoring-app-dialog/scoring-app-dialog.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PreloaderComponent } from './components/preloader/preloader.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, LandingPageComponent, SponsorsScrollComponent, ScoringAppDialogComponent],
+  declarations: [AppComponent, NavbarComponent, LandingPageComponent, SponsorsScrollComponent, ScoringAppDialogComponent, PreloaderComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
