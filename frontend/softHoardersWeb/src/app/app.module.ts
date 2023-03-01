@@ -18,6 +18,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { FastMediaComponent } from './components/fast-media/fast-media.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { PreloaderComponent } from './components/preloader/preloader.component';
+import { NavbarControlsComponent } from './components/navbar-controls/navbar-controls.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MapComponent,
     HomeComponent,
     FastMediaComponent,
+    PreloaderComponent,
+    NavbarControlsComponent,
   ],
   imports: [
     BrowserModule,

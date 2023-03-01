@@ -2,14 +2,19 @@
   padding-top: 100px;
   position: fixed;
   width: calc(100vw - 10px);
-  height: 96vh;
+  height: calc(100vh - 30px);
   z-index: -1;
   top: 0;
 }
 
 .right-column-container {
   align-self: end;
-  max-width: 98vw;
+  overflow: hidden;
+}
+
+.right-column-container-small {
+  width: 100vw;
+  text-align: end;
   overflow: hidden;
 }
 
@@ -42,19 +47,39 @@
   background-color: #004d25;
   border-radius: 40px;
   color: white;
+  transition: all 0.5s ease;
   font-size: calc(0.3vw + 10px);
   height: 5vh;
   font-family: Newake;
 }
 
+.map-button:hover {
+  border-radius: 10px;
+  transform: scale(1.1);
+  outline-color: black;
+  outline-width: 2px;
+  outline-style: solid;
+  background: transparent;
+  color: black;
+}
+
 .app-button {
   outline-color: black;
-  outline-width: 1px;
+  outline-width: 2px;
   outline-style: solid;
   border-radius: 40px;
   font-family: Newake;
   font-size: calc(0.3vw + 10px);
   height: 5vh;
+  transition: all 0.5s ease;
+}
+
+.app-button:hover {
+  border-radius: 10px;
+  transform: scale(1.1);
+  outline-width: 0px;
+  background-color: #004d25;
+  color: white;
 }
 
 h1 {
@@ -72,16 +97,16 @@ p {
 
 .render {
   width: auto;
-  height: calc(85vh - 100px);
+  height: calc(95vh - 100px);
   object-fit: cover;
-  padding: 6vh 6vw 3vh 0 ;
+  padding: 0 6vw 3vh 0;
   animation: TranslateMy 1s ease-in-out;
 }
 
 .render-small {
+  margin-right: 20px;
   max-width: 90%;
   max-height: 100%;
-  padding: 20px;
   animation: TranslateMy 1s ease-in-out;
 }
 

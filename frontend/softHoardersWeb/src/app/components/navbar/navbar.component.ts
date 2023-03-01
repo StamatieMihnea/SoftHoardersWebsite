@@ -5,13 +5,10 @@ import { ScoringAppService } from 'src/app/services/scoring-app.service';
 @Component({
   selector: 'navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss']
+  styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements OnInit {
+  constructor(protected mobileSidenavService: MobileSidenavService) {}
 
-  constructor(protected scoringAppService : ScoringAppService, protected mobileSidenavService: MobileSidenavService) { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
