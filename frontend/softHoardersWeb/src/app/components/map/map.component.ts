@@ -50,8 +50,8 @@ export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
         type: 'geojson',
         data: '../../../assets/teams.geojson',
         cluster: true,
-        clusterMaxZoom: 14,
-        clusterRadius: 50,
+        clusterMaxZoom: 11,
+        clusterRadius: 3 * Math.sqrt(window.screen.width) ,
       });
 
       map.addLayer({
@@ -61,7 +61,7 @@ export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
         filter: ['has', 'point_count'],
         paint: {
           'circle-color': '#004d25',
-          'circle-radius': 40,
+          'circle-radius': 3 / 4 * Math.sqrt(window.screen.width) ,
         },
       });
 
