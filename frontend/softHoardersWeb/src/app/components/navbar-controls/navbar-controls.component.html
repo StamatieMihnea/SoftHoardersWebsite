@@ -1,8 +1,39 @@
-<span routerLink="/home" class="button-text">about</span>
-<span class="button-text">news</span>
-<span routerLink="/map" class="button-text">map</span>
-<span class="button-text" (click)="scoringAppService.openScoringDialog()"
+<span
+  routerLink="/home"
+  ngClass.gt-sm="button-text-big animated-button-text"
+  ngClass.lt-md="button-text-small"
+  (click)="mobileSidenavService.close()"
+  >about</span
+>
+<span
+  ngClass.gt-sm="button-text-big animated-button-text"
+  ngClass.lt-md="button-text-small"
+  (click)="mobileSidenavService.close()"
+  >news</span
+>
+<span
+  ngClass.gt-sm="button-text-big animated-button-text"
+  ngClass.lt-md="button-text-small"
+  (click)="mobileSidenavService.close()"
+  routerLink="/map"
+  >map</span
+>
+<span
+  ngClass.gt-sm="button-text-big animated-button-text"
+  ngClass.lt-md="button-text-small"
+  (click)="scoringAppService.openScoringDialog()"
+  (click)="mobileSidenavService.close()"
   >scoring app</span
 >
-<span class="button-text">sponsors</span>
-<span class="button-text">media</span>
+<span
+  ngClass.gt-sm="button-text-big animated-button-text"
+  ngClass.lt-md="button-text-small"
+  (click)="mobileSidenavService.close()"
+  >sponsors</span
+>
+<span
+  ngClass.gt-sm="button-text-big animated-button-text"
+  ngClass.lt-md="button-text-small"
+  (click)="mobileSidenavService.close()"
+  >media</span
+>

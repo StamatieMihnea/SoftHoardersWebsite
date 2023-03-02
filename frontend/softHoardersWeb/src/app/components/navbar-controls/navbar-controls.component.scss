@@ -1,14 +1,22 @@
-.button-text {
+span {
   margin-left: 3vw;
   margin-right: 2vw;
-  display: inline-block;
-  position: relative;
   font-family: Newake;
-  font-size: calc(0.5vw + 10px);
   cursor: pointer;
 }
 
-.button-text::after {
+.button-text-big {
+  position: relative;
+  display: inline-block;
+  font-size: calc(0.5vw + 10px);
+}
+
+.button-text-small {
+  font-size: 40px;
+  margin: 4vw;
+}
+
+.animated-button-text::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -21,12 +29,12 @@
   transition: transform 0.25s ease-out;
 }
 
-.button-text:hover::after {
+.animated-button-text:hover::after {
   transform: scaleX(1);
   background-color: #48bf53;
   transform-origin: bottom left;
 }
 
-.button-text:hover {
+.animated-button-text:hover {
   color: #48bf53;
 }

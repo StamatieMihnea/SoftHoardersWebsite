@@ -1,10 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
@@ -20,6 +17,8 @@ import { FastMediaComponent } from './components/fast-media/fast-media.component
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { PreloaderComponent } from './components/preloader/preloader.component';
 import { NavbarControlsComponent } from './components/navbar-controls/navbar-controls.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
 
 @NgModule({
   declarations: [

@@ -25,28 +25,6 @@ export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
     this.map = new Map({
       container: this.mapContainer.nativeElement,
       style: `https://api.maptiler.com/maps/streets-v2/style.json?key=SxDX2hTgUYas0yausssf`,
-
-      // style: {
-      //   version: 8,
-      //   sources: {
-      //     'raster-tiles': {
-      //       type: 'raster',
-      //       tiles: [
-      //         'https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=SxDX2hTgUYas0yausssf',
-      //       ],
-      //       tileSize: 256,
-      //     }
-
-      //   },
-      //   'layers': [
-      //     {
-      //       id: 'simple-tiles',
-      //       type: 'raster',
-      //       source: 'raster-tiles',
-      //     },
-      //   ],
-      // },
-
       center: [initialState.lng, initialState.lat],
       zoom: initialState.zoom,
     });
@@ -101,7 +79,6 @@ export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
           'text-color': '#ffffff',
         },
       });
-
       map.addLayer({
         id: 'unclustered-point',
         type: 'symbol',
@@ -109,8 +86,26 @@ export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
         filter: ['!', ['has', 'point_count']],
         layout: {
           'icon-image': ['get', 'id'],
-          'icon-size': window.screen.width / 9000,
           'icon-allow-overlap': true,
+          'icon-size': [
+            'interpolate',
+            ['exponential', 1],
+            ['zoom'],
+            6,
+            0.45,
+            9,
+            0.75,
+            11,
+            0.9,
+            12,
+            0.9,
+            13,
+            1.1,
+            18,
+            3,
+            22,
+            6,
+          ],
         },
         paint: {},
       });

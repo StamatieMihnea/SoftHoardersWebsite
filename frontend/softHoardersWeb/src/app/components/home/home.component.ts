@@ -5,16 +5,8 @@ import { MobileSidenavService } from 'src/app/services/mobile-sidenav.service';
 @Component({
   selector: 'home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
 })
-export class HomeComponent implements AfterViewInit {
-  @ViewChild('drawer') private drawer!: MatDrawer;
-
-  constructor(private mobileSidenavService: MobileSidenavService) { }
-
-  ngAfterViewInit(): void {
-    this.mobileSidenavService.setDrawer(this.drawer);
-  }
-
-
+export class HomeComponent {
+  constructor() {}
 }

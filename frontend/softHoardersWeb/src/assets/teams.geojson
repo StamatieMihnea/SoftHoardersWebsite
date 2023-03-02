@@ -352,18 +352,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "22584",
-        "name": "RoboticsGeneration"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [21.23458618938553, 45.752862361662885]
-      }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
         "id": "21087",
         "name": "Velocity Red"
       },
@@ -982,18 +970,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [22.1764081111901, 45.85824950717905]
-      }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "22440",
-        "name": "HOSBOTX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [26.130838992780625, 44.49377957541617]
       }
     },
 
@@ -1701,7 +1677,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [26.026698408785727, 44.94526201421652]
+        "coordinates": [26.0269942, 44.94478358897673]
       }
     },
 
@@ -1912,36 +1888,12 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "22697",
-        "name": "CreativityR"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [27.577307779583254, 47.17330797681551]
-      }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "22590",
-        "name": "Macrosynth"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [27.54369271874033, 47.1771947924128]
-      }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
         "id": "19098",
         "name": "EasternFoxes"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [26.02699414137268, 44.94478358897673]
+        "coordinates": [26.026698408785727, 44.94526201421652]
       }
     },
 

@@ -1,2 +1,15 @@
 <navbar></navbar>
-<router-outlet></router-outlet>
+<mat-sidenav-container>
+  <mat-sidenav
+    #drawer
+    mode="over"
+    fixedInViewport="true"
+    fixedTopGap="100"
+    position="end"
+    fxShow="false"
+    fxShow.lt-md
+  >
+    <navbar-controls fxLayout="column"></navbar-controls>
+  </mat-sidenav>
+  <router-outlet></router-outlet>
+</mat-sidenav-container>

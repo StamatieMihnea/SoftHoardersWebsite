@@ -12,4 +12,7 @@ export class MobileSidenavService {
   toggle(): void {
     this.drawer.toggle();
   }
+  close(): void {
+    this.drawer.close();
+  }
 }
