@@ -1,2 +1,68 @@
 .moving-segment {
+  margin-top: 100vh;
+  position: relative;
+  overflow-x: clip;
+}
+
+.waves {
+  width: 4800px;
+  height: 20vh;
+  transform: translate(0, 10px);
+  position: absolute;
+  margin-top: -20vh;
+  z-index: -2;
+}
+
+.wave1 {
+  background: url(../../../assets/img/wave1.svg) repeat-x;
+  animation: wave 6s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite,
+    swell-first 5s linear infinite;
+}
+.wave2 {
+  background: url(../../../assets/img/wave2.svg) repeat-x;
+  animation: wave 8s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite,
+    swell 10s linear infinite;
+}
+.wave3 {
+  background: url(../../../assets/img/wave3.svg) repeat-x;
+  animation: wave 10s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite,
+    swell 10s linear infinite;
+}
+.wave4 {
+  background: url(../../../assets/img/wave4.svg) repeat-x;
+  animation: wave 14s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite,
+    swell 6s linear infinite;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -161.61vh;
+  }
+}
+
+@keyframes swell {
+  0% {
+    transform: translate3d(0, 10px, 0);
+  }
+  50% {
+    transform: translate3d(0, 12vh, 0);
+  }
+  100% {
+    transform: translate3d(0, 10px, 0);
+  }
+}
+
+@keyframes swell-first {
+  0% {
+    transform: translate3d(0, 6vh, 0);
+  }
+  50% {
+    transform: translate3d(0, 8vh, 0);
+  }
+  100% {
+    transform: translate3d(0, 6vh, 0);
+  }
 }
